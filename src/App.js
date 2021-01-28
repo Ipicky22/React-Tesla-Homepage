@@ -16,6 +16,52 @@ function App() {
 			<Header />
 			<div className='app__itemsContainer'>
 				<Item
+					title='Model S'
+					desc='Order Online for Touchless Delivery'
+					descLink=''
+					backgroundImg={ModelS}
+					leftBtnTxt='ORDER NOW'
+					leftBtnLink=''
+					rightBtnTxt='LEARN MORE'
+					rightBtnLink=''
+					twoButtons='true'
+					first
+				/>
+				<Item
+					title='Model Y'
+					desc='Order Online for Touchless Delivery'
+					descLink=''
+					backgroundImg={ModelY}
+					leftBtnTxt='ORDER NOW'
+					leftBtnLink=''
+					rightBtnTxt='LEARN MORE'
+					rightBtnLink=''
+					twoButtons='true'
+				/>
+				<Item
+					title='Model 3'
+					desc='Order Online for Touchless Delivery'
+					descLink=''
+					backgroundImg={Model3}
+					leftBtnTxt='ORDER NOW'
+					leftBtnLink=''
+					rightBtnTxt='LEARN MORE'
+					rightBtnLink=''
+					twoButtons='true'
+				/>
+				<Item
+					title='Model X'
+					desc='Order Online for Touchless Delivery'
+					descLink=''
+					backgroundImg={ModelX}
+					leftBtnTxt='ORDER NOW'
+					leftBtnLink=''
+					rightBtnTxt='LEARN MORE'
+					rightBtnLink=''
+					twoButtons='true'
+				/>
+
+				<Item
 					title='Lowest Cost Solar Panels in America'
 					desc='Money-back guarantee'
 					descLink=''
@@ -28,52 +74,8 @@ function App() {
 					first
 				/>
 				<Item
-					title='Model S'
-					desc='$69,420'
-					descLink=''
-					backgroundImg={ModelS}
-					leftBtnTxt='ORDER NOW'
-					leftBtnLink=''
-					rightBtnTxt='LEARN MORE'
-					rightBtnLink=''
-					twoButtons='true'
-				/>
-				<Item
-					title='Model 3'
-					desc='$69,420'
-					descLink=''
-					backgroundImg={Model3}
-					leftBtnTxt='ORDER NOW'
-					leftBtnLink=''
-					rightBtnTxt='LEARN MORE'
-					rightBtnLink=''
-					twoButtons='true'
-				/>
-				<Item
-					title='Model X'
-					desc='$69,420'
-					descLink=''
-					backgroundImg={ModelX}
-					leftBtnTxt='ORDER NOW'
-					leftBtnLink=''
-					rightBtnTxt='LEARN MORE'
-					rightBtnLink=''
-					twoButtons='true'
-				/>
-				<Item
-					title='Model Y'
-					desc='$69,420'
-					descLink=''
-					backgroundImg={ModelY}
-					leftBtnTxt='ORDER NOW'
-					leftBtnLink=''
-					rightBtnTxt='LEARN MORE'
-					rightBtnLink=''
-					twoButtons='true'
-				/>
-				<Item
 					title='Solar for New Roofs'
-					desc='$69,420'
+					desc='Solar Roof Costs Less Than a New Roof Plus Solar Panels'
 					descLink=''
 					backgroundImg={SolarRoof}
 					leftBtnTxt='ORDER NOW'
@@ -84,7 +86,7 @@ function App() {
 				/>
 				<Item
 					title='Accessories'
-					desc='$69,420'
+					desc=''
 					descLink=''
 					backgroundImg={Accessories}
 					leftBtnTxt='ORDER NOW'
